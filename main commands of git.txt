@@ -1,0 +1,24 @@
+main git commands
+
+git --version
+
+git config --global user.name "Malik Azhar"
+git config --global user.email "ma9440863@gmail.com" 
+
+git status
+git add . / git add (file name.extenstion_name)
+
+git commit -m" change name"
+
+git remote add "origin" git@github.com:User/ma9440863.gitmytestrepo
+
+
+git push origin main
+
+git branch -m main/master
+
+git log
+
+git reset --hard(commit id)
+
+git reset --soft(commit id)
