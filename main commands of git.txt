@@ -15,7 +15,9 @@ git remote add "origin" git@github.com:User/ma9440863.gitmytestrepo
 
 git push origin main
 
-git branch -m main/master
+git branch -M main/master
+
+git branch (for branch checking)
 
 git log
 
