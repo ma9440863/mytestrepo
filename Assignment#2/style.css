@@ -1,0 +1,146 @@
+header{
+       background: black;
+      width: 100%;
+}
+li{
+    display: inline;
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+    text-align: left;
+    align-items: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.logo{
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.navmenu{
+    text-align: center;
+   margin-top: -65px;
+   justify-content: center;
+   position: absolute;
+   margin-left: 550px;
+}
+.article1  {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgb(213, 209, 209);
+    border: 1 px solid black;
+    border-radius: 10px;
+    justify-self: center;
+    
+    
+}
+.para1{
+    text-align: left;
+    margin-top: -100px;
+    margin-left: 300px;
+    margin-bottom: 70px;
+}
+.heading{
+    margin-top: 55px;
+}
+.article2  {
+    position: absolute;
+    margin-top: 330px;
+    margin-right: 10px;
+    margin-left: 200px;
+    margin-bottom: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgb(213, 209, 209);
+    border: 1 px solid black;
+    border-radius: 10px;
+    justify-self: center;
+    
+    
+}
+.para2{
+    text-align: left;
+    margin-top: -110px;
+    padding-left: 115px;
+    margin-left: 190px;
+    padding-right: 30px;
+    margin-bottom: 45px;
+}
+
+.article3  {
+    position: absolute;
+    margin-top: 600px;
+    margin-right: 10px;
+    margin-left: 200px;
+    margin-bottom: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgb(213, 209, 209);
+    border: 1 px solid black;
+    border-radius: 10px;
+    justify-self: center;
+    
+}
+.para3{
+    text-align: left;
+    margin-top: -110px;
+    padding-left: 115px;
+    margin-left: 190px;
+    padding-right: 30px;
+    
+}
+
+footer{
+   position: fixed;
+   bottom:0;
+   left: 0;
+   width:100%;
+   margin: auto;
+  margin-top: -30px;
+   background:black;
+  
+}
+.footerli{
+    
+text-align: center;
+   margin-top: -80px;
+   position: relative;
+   justify-self: center;
+   padding-left: 90px;
+   padding-bottom: 10px;
+}
+.footerlogo{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.footeraddress{
+ color: white;   
+ position: relative;
+ text-align: right;
+ padding-right: 100px;
+ margin-top: -100px;
+ margin-bottom: 15px;
+}
+address{
+    margin-top: -19px; 
+}
+h4{
+    font-size: 22px;
+    color: #39d5ff;
+    text-decoration: underline;
+}
+li:hover{
+    color: #39d5ff;
+}
+.footerli:hover{
+    color: #39d5ff; 
+}
