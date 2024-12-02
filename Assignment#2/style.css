@@ -132,12 +132,12 @@ body{
     padding-left: 20px;
 }
 .footeraddress{
- color: white;   
- position: relative;
- text-align: right;
- padding-right: 100px;
- margin-top: -100px;
- margin-bottom: 15px;
+    color: white;   
+    position: relative;
+    text-align: right;
+    padding-right: 100px;
+    margin-top: -100px;
+    margin-bottom: 15px;
 }
 address{
     margin-top: -19px; 
@@ -150,10 +150,6 @@ h4{
 li:hover{
     color: #39d5ff;
 }
-.footerli:hover{
-    color: #39d5ff; 
-}
-
 .main_footer {
     position: absolute;
     bottom:0;
@@ -165,15 +161,15 @@ li:hover{
     background:black;
 }
 .img1{
-   margin-top: 20px;
-   align-items: center;
-   width: 1000px;
-   justify-self: center;
+    margin-top: 20px;
+    align-items: center;
+    width: 1000px;
+    justify-self: center;
 }
 .section{
-   margin-left: 25px;
-   margin-right: 30px;
+    margin-left: 25px;
+    margin-right: 30px;
 }
 h1{
-   font-size: 35px;
+    font-size: 35px;
 }
