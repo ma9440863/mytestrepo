@@ -112,6 +112,9 @@ body{
     min-height: 100%;
 }
 
+.img1{
+    border-radius: 15px;
+}
 .footerli{
     text-align: center;
     margin-top: -80px;
