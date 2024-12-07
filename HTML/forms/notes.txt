@@ -1,0 +1,66 @@
+<Form Tag>
+attriute 
+1 - Method 
+2 - action
+3 - enc type
+
+Method{
+    Get-unsecure
+    Post-secure
+}
+
+Action{
+    must be URL
+}
+
+
+<input>
+type
+
+types{
+
+1 text
+2 number
+3 email
+4 select
+5 radio
+6 checkbox
+7 file
+8 text area
+9 submit
+10 placeholder
+}
+
+select{
+
+    <select>
+    <option> Country name </option>
+    <option> Country name </option>
+    <option> Country name </option>
+    </select>?
+}
+
+name attriute important - - Each input tag
+
+Get Method(unsecure) {
+    after URL ?fullname = Qasim rafique&Lastname = rafique
+}
+Post Method(secure){
+    will be a url path
+}
+
+
+Assignment{
+    Registration Form
+    first name
+    last name
+    email
+    Country
+    gender
+    file
+    hobbies
+}
+
+enc type{
+    jb b file input ly gy to yeh type hogi
+}
