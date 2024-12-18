@@ -64,3 +64,6 @@ Assignment{
 enc type{
     jb b file input ly gy to yeh type hogi
 }
+
+query parrams / query strings   
+after URL ?fullname = Qasim rafique&Lastname = rafique

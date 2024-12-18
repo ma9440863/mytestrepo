@@ -1,0 +1,3 @@
+base element
+map tag
+area tag
