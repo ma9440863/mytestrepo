@@ -1,0 +1,98 @@
+header{
+    background: black;
+    margin-right: -20px;
+    margin-left: -30px;
+    margin-top: -15px; 
+    padding-bottom: 20px;
+}
+.ul1 li{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    padding: 20px;
+}
+.navmenu{
+    justify-self: center;
+    margin-top: -130px;
+}
+.head_logo{
+    margin-left: 80px;
+    padding-bottom: 80px;
+    padding-top: 15px;
+}
+.ul1{
+    margin-top: -10px;
+}
+footer{
+    background-color: black;
+    position: static;
+    margin-right: -20px;
+    margin-left: -30px;
+    margin-bottom: -15px; 
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+.foot_logo{
+    margin-left: 80px;
+    padding-top: 80px;
+    padding-top: 15px;
+}
+.li2{
+    color: white;
+}
+.footmenu{
+    justify-self: center;
+    margin-top: -100px;
+    margin-right: 220px;
+}
+.footaddress{
+    justify-self: right;
+    color: white;
+    margin-top: -120px;
+    margin-right: 100px;
+}
+.footaddress h3{
+    color: aqua;
+}
+.footadd{
+    margin-top: -10px;
+}
+.banner{
+    margin-top: 5px;
+}
+.article1{
+    margin-bottom: 10px;
+    justify-self: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+.article2{
+    margin-bottom: 10px;
+    justify-self: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+.article3{
+    margin-bottom: 10px;
+    justify-self: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+.article4{
+    margin-bottom: 10px;
+    justify-self: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
