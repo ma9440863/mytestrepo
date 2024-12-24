@@ -103,3 +103,16 @@ article h1{
 article p{
     font-size: 20px;
 }
+.blog{
+    margin-top: 10px;
+    justify-items: left;
+    margin-left: 20px;
+    width: 90%;
+}
+.blog h1{
+    font-size: 45px;
+}
+.blog p{
+    font-size: 20px;
+}
+
