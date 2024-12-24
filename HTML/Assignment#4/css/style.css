@@ -61,6 +61,8 @@ footer{
     margin-top: 5px;
 }
 .article1{
+    background-color: #e8e8e8;
+    width: 50%;
     margin-bottom: 10px;
     justify-self: center;
     margin-left: 50px;
@@ -70,6 +72,8 @@ footer{
     padding: 20px;
 }
 .article2{
+    background-color: #e8e8e8;
+    width: 50%;
     margin-bottom: 10px;
     justify-self: center;
     margin-left: 50px;
@@ -79,6 +83,8 @@ footer{
     padding: 20px;
 }
 .article3{
+    background-color: #e8e8e8;
+    width: 50%;
     margin-bottom: 10px;
     justify-self: center;
     margin-left: 50px;
@@ -87,12 +93,13 @@ footer{
     border-radius: 15px;
     padding: 20px;
 }
-.article4{
-    margin-bottom: 10px;
-    justify-self: center;
-    margin-left: 50px;
-    margin-top: 10px;
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 20px;
+article a{
+    text-decoration: none;
+    color: black;
+}
+article h1{
+    font-size: 25px;
+}
+article p{
+    font-size: 20px;
 }
