@@ -115,4 +115,27 @@ article p{
 .blog p{
     font-size: 20px;
 }
-
+.con_form {
+    width: 40%;
+    justify-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.con_form input , label{
+    margin: 10px;
+}
+.field1{
+    width: 585px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.con_form label{
+    font-size: 20px;
+}
+.con_form h1{
+    justify-self: center;
+}
