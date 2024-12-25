@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Website</title>
+    <title>Contact us</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -25,6 +25,28 @@
         </section>
   </header>
  <!--Header Section End -->
+
+    <!--Form Section Start -->
+    <section class="con_form">
+        <h1>Registration form</h1>
+        <form action="action.php" method="post" enctype="multipart/form-data">
+            <label for="f_name" >First Name</label><br>
+            <input type="text" name="f_name" id="f_name" class="field1" required><br>
+            <label for="l_name">Last Name</label><br>
+            <input type="text" name="l_name" id="l_name" class="field1" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" class="field1" required><br>
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" name="phone" id="phone" class="field1" required><br>
+            <label for="username">Username</label><br>
+            <input type="text" name="username" id="username" class="field1" required><br>
+            <label for="Password">Password</label><br>
+            <input type="password" name="Password" id="Password" class="field1" required><br>
+            <input type="submit" value="Register">
+        </form>
+    </section>    
+    <!--Form Section End -->
+
 
     <!--Footer Section Start -->
     <footer>
