@@ -1,29 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Website</title>
-    <link rel="stylesheet" href="/ass4/css/style.css">
+    <?php
+    $pagetitle="Post1 Page";
+    include '../templates/head.php';
+    ?>
 </head>
 <body>
     <!--Header Section Start -->
-    <header class="header">
-        <section class="head_logo">
-           <a href="/ass4/index.php"><img src="/ass4/assets/Logo.jpg" alt="Logo" width="240px" height="70px" ></a> 
-       </section> 
-       
-        <section class="navmenu">
-           <ul class="ul1"> 
-                <a href="/ass4/index.php" style="text-decoration: none;"><li>Home</li></a>  
-                <a href="/ass4/pages/post1.php" style="text-decoration: none;"><li>Post#1</li></a> 
-                <a href="/ass4/pages/post2.php" style="text-decoration: none;"><li>Post#2</li></a> 
-                <a href="/ass4/pages/post3.php" style="text-decoration: none;"><li>Post#3</li></a> 
-                <a href="/ass4/pages/contactus.php" style="text-decoration: none;"><li>Contact Us</li></a> 
-                <a href="/ass4/pages/Registrationform.php" style="text-decoration: none;"><li>Registration Form</li></a>
-             </ul>
-        </section>
-  </header>
+    <?php
+    include '../templates/header.php';
+    ?>
  <!--Header Section End -->
 
 <!--Content Section Start -->
@@ -64,25 +51,9 @@
 <!--Content Section End -->
 
     <!--Footer Section Start -->
-    <footer>
-        <section class="foot_logo">
-            <a href="/ass4/index.php"><img src="/ass4/assets/Logo.jpg" alt="Logo" width="240px" height="70px" ></a> 
-        </section>
-        <section class="footmenu">
-            <ul class="ul2"> 
-                <a href="/ass4/index.php" style="text-decoration: none;"><li>Home</li></>  
-                <a href="/ass4/pages/post1.php" style="text-decoration: none;"><li>Post#1</li></a> 
-                <a href="/ass4/pages/post2.php" style="text-decoration: none;"><li>Post#2</li></a> 
-                <a href="/ass4/pages/post3.php" style="text-decoration: none;"><li>Post#3</li></a> 
-                <a href="/ass4/pages/contactus.php" style="text-decoration: none;"><li>Contact Us</li></a> 
-                <a href="/ass4/pages/Registrationform.php" style="text-decoration: none;"><li>Registration Form</li></a> 
-              </ul>
-         </section>
-         <section class="footaddress">
-            <h3>Contact Us Now</h3>
-            <address class="footadd">03174539300<br>ma9440863@gmail.com</address>
-         </section>
-    </footer>
+    <?php
+    include '../templates/footer.php';
+    ?>
 <!--Footer Section End -->
 </body>
 </html>

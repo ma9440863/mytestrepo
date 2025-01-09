@@ -23,6 +23,12 @@ header{
 .ul1{
     margin-top: -10px;
 }
+.blog a:link{
+    text-decoration: none;
+    color: black;
+
+}
+
 footer{
     background-color: black;
     position: static;
@@ -99,9 +105,11 @@ article a{
 }
 article h1{
     font-size: 25px;
+    color: black;
 }
 article p{
     font-size: 20px;
+    color: black;
 }
 .blog{
     margin-top: 10px;
