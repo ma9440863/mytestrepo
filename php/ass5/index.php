@@ -28,7 +28,7 @@
             case "sub":
                 $num3= $num1-$num2;
                     break;
-            case "multiply":
+            case "mul":
                 $num3= $num1*$num2;
                     break;
             case "div":
