@@ -31,9 +31,12 @@
         else if ($drop == "mul") {
             $num3= $num1*$num2;
         }
-        else {
+        else if ($drop == "div"){
             $num3= $num1/$num2;
-        }    
+        }  
+        else{
+            $num3= "Please Select operators";
+        }
     } 
     ?>
     <!-- PHP End here -->  
@@ -46,6 +49,7 @@
     <input type="number" name="num2" value="<?php echo @$num2; ?>" required><br>
     <label for="num2">PLease Select One</label><br> 
     <select name= "drop" id="drop">
+        <option value="">Please select operator</option>
         <option value="add">Addition</option>
         <option value="sub">Substraction</option>
         <option value="mul">Multiplication</option>
