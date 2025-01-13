@@ -12,7 +12,7 @@
     include "templates/header.php";
     ?>
 </header>
-<!-- Header End here -->
+    <!-- Header End here -->
 <body>
     <!-- PHP Start here -->
     <?php 
@@ -21,35 +21,29 @@
         $num2 = $_POST["num2"];
         $drop = $_POST["drop"];
 
-        switch ($drop) {
-            case "add":
-                $num3= $num1+$num2;
-                    break;   
-            case "sub":
-                $num3= $num1-$num2;
-                    break;
-            case "mul":
-                $num3= $num1*$num2;
-                    break;
-            case "div":
-                $num3= $num1/$num2;
-                    break; 
-            default:
-            $num3= "Please Select operators";
+        if ($drop == "add") {
+            $num3= $num1+$num2;
         }
 
-
-    }
-    
+        else if ($drop == "sub") {
+            $num3= $num1-$num2;
+        }
+        else if ($drop == "mul") {
+            $num3= $num1*$num2;
+        }
+        else {
+            $num3= $num1/$num2;
+        }    
+    } 
     ?>
     <!-- PHP End here -->  
 
     <!-- form start here -->
     <form action="index.php" method="POST" class="form">
     <label for="num1">Enter First number</label><br>   
-    <input type="number" name="num1" value="<?php echo @$num1; ?>"><br>
-    <label for="num2">Enter Second number</label><br>   
-    <input type="number" name="num2" value="<?php echo @$num2; ?>"><br>
+    <input type="number" name="num1" value="<?php echo @$num1; ?>" required><br>
+     <label for="num2">Enter Second number</label><br>   
+    <input type="number" name="num2" value="<?php echo @$num2; ?>" required><br>
     <label for="num2">PLease Select One</label><br> 
     <select name= "drop" id="drop">
         <option value="add">Addition</option>
@@ -65,12 +59,12 @@
 
     <!-- form End here -->
 
-<!-- Footer Starts here -->
+    <!-- Footer Starts here -->
 <footer>
- <?php
+    <?php
     include "templates/footer.php";
     ?>
-<!-- Footer End here -->
- </footer>
+    <!-- Footer End here -->
+</footer>
 </body>
 </html>
