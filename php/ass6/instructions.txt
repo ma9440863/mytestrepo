@@ -1,0 +1,16 @@
+If conditions
+-Salary calculator with over time
+
+-Check number is positive, nagitive or zero
+
+switch 
+-Grade generator
+
+-Display day and quotes
+
+
+aik din k ander 8 ghanty
+aik week mein 40 ghanty
+
+salary find krni h per hour k hisab s 
+over time ki salary 1.5 numeric hour zyada hogi
