@@ -17,7 +17,6 @@
      <!-- PHP Salary calculator start here -->
     <?php 
     $salary = "";
-    $overtime = "";
     $rate = "";
     $hours = "";
     if (isset($_POST["submit"])){
@@ -99,29 +98,30 @@
 
          <!-- PHP Grade program start here -->
     <?php 
-     $marks = "";
+    $marks = "";
     $result= "";
+
     if (isset($_POST["markssubmit"])){
-        $marks = $_POST["marks"];
-    
-        switch ($marks) {
+
+        $marks = (int)$_POST["marks"];
+        switch (true) {
             
-            case $marks>="90":
+            case $marks>=90:
                 $result= "A+ Grade";
                 break;
-            case $marks>="80":
+            case $marks>=80:
                 $result= "A Grade";
                 break;    
-            case $marks>="70":
+            case $marks>=70:
                 $result= "B+ Grade";
                 break; 
-            case $marks>="60":
+            case $marks>=60:
                 $result= "B Grade";
                 break;   
-            case $marks>="50":
+            case $marks>=50:
                 $result= "C Grade";
                 break; 
-            case $marks>="40":
+            case $marks>=40:
                 $result= "D Grade";
                 break; 
             default:
@@ -162,28 +162,29 @@
     $quote= "";
     if (isset($_POST["daysubmit"])){
         $day = $_POST["day"];
-    
-        switch ($day) {
+        $day = strtolower( $day );
+        $dayprocess = strtolower( $day );
+        switch ($dayprocess) {
             
-            case 'Monday':
+            case 'monday':
                 $quote = "Monday is a fresh start!";
                 break;
-            case 'Tuesday':
+            case 'tuesday':
                 $quote = "Tuesday is just another day to be amazing!";
                 break;    
-            case 'Wednesday':
+            case 'wednesday':
                 $quote = "Wednesdays will either make you or break you.";
                 break; 
-            case 'Thursday':
+            case 'thursday':
                 $quote = "As the sun rises on Thursday morning, so does your potential for greatness.";
                 break;   
-            case 'Friday' :
+            case 'friday' :
                 $quote = "Let Friday show you where the smiles are in life.";
                 break; 
-            case 'Saturday' :
+            case 'saturday' :
                 $quote = "Saturday is the perfect day to relax and enjoy the weekend!";
                 break; 
-            case 'Sunday':
+            case  'sunday':
                 $quote = "Sundays are for adventure, exploration, and creating beautiful memories";
                 break;     
             default:
